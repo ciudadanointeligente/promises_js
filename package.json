@@ -1,15 +1,12 @@
 {
-  "name": "promises_js",
-  "version": "0.0.0",
-  "description": "Promises in Js",
-  "main": "index.js",
-  "scripts": {
-    "test": "grunt test"
+  "engines": {
+    "node": ">= 0.10.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "ciudadanointeligente/promises_js"
-  },
-  "author": "Ciudadano Inteligente",
-  "license": "BSD"
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-protractor-runner": "~2.1.0"
+  }
 }
